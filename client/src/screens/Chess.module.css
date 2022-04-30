@@ -1,0 +1,19 @@
+.column{
+    
+}
+
+.game{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto auto auto;
+  width: calc(65px * 8);
+}
+
+
+.main{
+  display: flex;
+  justify-content: center;
+}
+
+.rightBox{
+  display: block;
+}
